@@ -1,0 +1,9 @@
+- name: Copy a single file
+  win_copy:
+    src: '{{ CPF_01 }}'
+    dest: C:\Temp\renamed-foo.conf
+
+- name: Create a file from a Jinja2 template
+  win_template:
+    src: '{{ TPF_01 }}'
+    dest: C:\Temp\file.conf
