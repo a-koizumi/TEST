@@ -35,5 +35,3 @@ output "output_str_var" {
 }
 
 
-
-
