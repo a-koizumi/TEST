@@ -1,3 +1,6 @@
+aaaaaaaa
+bbbbbbbb
+
 resource "random_pet" "pet" {
 	keepers = {
 		val = timestamp()
