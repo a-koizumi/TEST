@@ -3,3 +3,5 @@
 #- copy: src={{ CPF_01 }} dest='/temp/CPF_01'
 - command: echo {{ VAR_01 }}
 
+
+
