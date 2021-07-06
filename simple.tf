@@ -33,3 +33,4 @@ output "output_map_key2" {
 output "output_str_var" {
   value = "${var.test_str_var}"
 }
+
