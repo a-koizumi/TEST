@@ -1,0 +1,8 @@
+VAR_readme1:
+  - readme_1_1: readme_1_1_1
+    readme_1_2: readme_1_2_1
+  - readme_1_1: readme_1_1_2
+    readme_1_2: readme_1_2_2
+VAR_readme2:
+  - readme_2_1: readme_2_1_1
+    readme_2_2: readme_2_1_2
