@@ -1,3 +1,4 @@
 CPF_01.yml
 -copy: src='{{ CPF_01 }}' dest=/etc/hosts 
 - command: echo {{ VAR_01 }}
+
