@@ -10,3 +10,4 @@ exec_list:
     exec: echo '{{ GBL_01 }}'
   - expect: 'azureuser@'
     exec: echo '{{ VAR_01 }}'
+    
