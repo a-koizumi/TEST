@@ -1,0 +1,12 @@
+conf:
+  timeout: 60
+
+exec_list:
+  - expect: 'azureuser@'
+    exec: /usr/bin/cp -f '{{ CPF_01 }}' /temp/{{ __loginhostname__ }}_CPF_01.txt
+  - expect: 'azureuser@'
+    exec: /usr/bin/cp -f '{{ TPF_01 }}' /temp/{{ __loginhostname__ }}_TPF_01.txt
+  - expect: 'azureuser@'
+    exec: echo '{{ GBL_01 }}'
+  - expect: 'azureuser@'
+    exec: echo '{{ VAR_01 }}'
